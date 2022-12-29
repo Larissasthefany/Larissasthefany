@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil da Larissa 😁
+## Bem-vindo(a) ao perfil da Larissa 🤓
 
  <div>
    <a href="https://github.com/Larissasthefany">
