@@ -27,6 +27,8 @@
 
 ###
 
+<br clear="both">
+
 <div align="left">
   <a href="https://www.linkedin.com/in/devlarissasthefany/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
@@ -47,15 +49,5 @@
 <div align="center">
   <img height="250" src="https://imgs.search.brave.com/E9yUWMz5m_IwtF7EzhSm7ZitBaddk7ZWls4NgiI8A-I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvYmxlYWNo/LXlvdW5nLW5lbC10/dS13MWJ4azFxc3k5/ZDN0cHdyLmdpZg.gif"  />
 </div>
-
-###
-
-<div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4&username=Larissasthefany&theme=dark" alt="Layout with last medium posts"  />
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/Larissasthefany/Larissasthefany/output/snake.svg" alt="Snake animation" />
 
 ###
