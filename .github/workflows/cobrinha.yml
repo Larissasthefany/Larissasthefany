@@ -1,23 +1,26 @@
-name: Generate Datas
+name: Generate Snake
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-  workflow_dispatch:
+  schedule: # Roda a cada 24 horas
+    - cron: "0 */24 * * *"
+  workflow_dispatch: # Permite rodar manualmente
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
-          github_user_name: Larissasthefany
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Push Snake to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
