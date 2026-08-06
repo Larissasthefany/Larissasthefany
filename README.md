@@ -6,7 +6,7 @@
 
 ### 👩‍💻 Sobre Mim
 
-> Olá! Sou a **Larissa Sthefany**, formada em **Análise e Desenvolvimento de Sistemas** pela UNINASSAU e apaixonada por criar interfaces modernas, responsivas e intuitivas.
+> Formada em **Análise e Desenvolvimento de Sistemas** pela UNINASSAU e apaixonada por criar interfaces modernas, responsivas e intuitivas.
 
 * 🚀 **Foco atual:** Aperfeiçoando habilidades em ecossistema **React, Next.js e TypeScript**.
 * 💡 **Interesses:** Desenvolvimento Front-end, UX/UI Design e boas práticas de código.
